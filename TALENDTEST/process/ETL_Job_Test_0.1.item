@@ -206,7 +206,7 @@
       <column comment="" key="false" length="-1" name="newyork_to_NYC" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables sizeState="INTERMEDIATE" name="Var">
         <mapperTableEntries name="var1" expression="String.valueOf(2023 - row1.age) " type="id_String"/>
         <mapperTableEntries name="var2" expression="row1.name + &quot; from &quot; + row1.city " type="id_String"/>
